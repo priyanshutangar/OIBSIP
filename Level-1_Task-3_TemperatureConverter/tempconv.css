@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Edu SA Beginner', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(pexels-abdullah-ghatasheh-1631677.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.container{
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+#calcTemp{
+    height: 300px;
+    width: 600px;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 29px 67px;
+}
+
+#label{
+    color: #fff;
+    font-size: 30px;
+    line-height: 78px;
+}
+
+#temp{
+    font-size: 20px;
+    font-weight: 5000;
+    width: 100px;
+    height: 34px;
+    border-radius: 5px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    margin: 12px;
+    
+}
+
+
+#temp_diff{
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    margin: 12px;
+    border-radius: 5px;
+    width: 120px;
+    height: 34px;
+}
+
+#submit{
+    font-size: 18px;
+    width: 100px;
+    padding: 5px;
+    margin: 30px 0 20px 0;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+
+#results{
+    color: #fff;
+    font-size: 27px;
+}
+
+#submit:hover{
+    background-color: rgba(0, 0, 0, 0.256);
+    cursor: pointer;
+}
+
+#temp_diff{
+    background: #1621f688;
+    color: #fff;
+    border: 1px solid crimson;
+    padding: 4px;
+    border-radius: 9px;
+}
