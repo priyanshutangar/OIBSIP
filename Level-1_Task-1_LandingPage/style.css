@@ -1,0 +1,140 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    height: 40px;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(245.59deg, rgba(255,255,255,1) 0%, rgb(213, 221, 169) 28.53%, rgba(255,255,255,1) 75.2%); 
+    position: relative;
+}
+
+.navlist{
+    list-style-type: none;
+    display: flex;
+}
+
+.navlist a{
+    color: white;
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+}
+
+#input{
+    border-radius: 15px;
+    width: 100px;
+}
+
+input::placeholder{
+    text-align: center;
+    font-size: 15px;
+    opacity: 50%;
+}
+
+.navlist a:hover{
+      border-bottom: 2px solid grey;
+      
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+
+.text {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+.mainimg img{
+    margin-top: 40px;
+    height: 400px;
+    width: 100%;
+}
+
+.menu h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    
+    text-align: center;
+}
+
+.tray{
+    padding-left: 170px;
+}
+
+.tray img{
+    height: 150px;
+    width: 150px;
+    margin: 18px;
+    border-radius: 100px;
+    border: solid 2px black;
+}
+
+.contact .us{
+    background-color: rgb(68, 67, 67);
+}
+
+.us a i{
+    text-align: justify;
+    position: relative;
+    left: 40%;
+    padding-left: 60px;
+    display: flex 10px;
+    flex-direction: row;
+}
+
+.us i:hover{
+    color: palevioletred;
+    transition: all 0.55s ease-in-out;
+}
+
+.us p{
+    text-align: center;
+}
